@@ -1,0 +1,235 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.App {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin-left: 25%;
+  text-align: center;
+}
+
+/*Header Page*/
+.Header {
+  position: relative;
+  background: green;
+}
+
+.logo {
+  width: 100%;
+}
+
+.icon i {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  font-size: 20px;
+  color: #fff;
+}
+.icon b {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  font-family: "Luckiest Guy", cursive;
+  display: none;
+}
+.icon:hover b {
+  display: block;
+}
+.icon:hover i {
+  display: none;
+}
+
+/*Menu Page*/
+.Menu {
+  position: relative;
+  background: gray;
+}
+.Menu .foodChoice {
+  text-align: center;
+}
+.Menu .foodChoiceActive {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.Menu .menuChoice {
+  background: black;
+  border: 5px dotted white;
+  height: 100%;
+  padding-bottom: 20px;
+  font-family: "Cabin Sketch", cursive;
+}
+.Menu .menuChoice h1 {
+  font-family: "Cabin Sketch", cursive;
+  text-align: center;
+  color: white;
+}
+.Menu .menuChoice h3 {
+  margin-left: 4%;
+  color: white;
+}
+.Menu .menuChoice h4 {
+  color: white;
+}
+.Menu .menuChoice .exchange {
+  text-align: center;
+}
+.Menu .menuChoice h6 {
+  color: white;
+  text-align: center;
+}
+.Menu .menuChoice .first {
+  margin-left: 9%;
+}
+.Menu .menuChoice p {
+  padding: 0px 10px 2px 10px;
+  color: white;
+}
+.Menu .menuChoice .foodDescription {
+  margin-left: 1%;
+}
+.Menu .menuChoice .extraDescription {
+  margin-left: 4%;
+}
+.Menu .menuChoice .extraAmount {
+  text-align: center;
+}
+.Menu .menuChoice .extraPrice {
+  text-align: center;
+}
+
+.Location {
+  position: relative;
+  background: blue;
+}
+.Location .front {
+  width: 100vw;
+}
+.Location h3 {
+  font-family: "Patua One", cursive;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.Location p {
+  text-align: center;
+  color: white;
+}
+.Location .direction {
+  margin-left: 0px;
+}
+.Location .hours {
+  padding-bottom: 20px;
+}
+
+.Contact {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .App {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  section {
+    min-height: 100vh;
+  }
+
+  /*Header Page*/
+  .Header {
+    background: yellow;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 200px;
+  }
+
+  .icon i {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+  }
+  .icon b {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    display: none;
+  }
+  .icon:hover b {
+    display: block;
+  }
+  .icon:hover i {
+    display: none;
+  }
+
+  /*Menu Page*/
+  .Menu {
+    background: gray;
+  }
+  .Menu .menuChoice {
+    margin-right: 20px;
+  }
+
+  .Location .front {
+    margin-left: 25%;
+    width: 50vw;
+  }
+}
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+/*# sourceMappingURL=../style.css.map */
