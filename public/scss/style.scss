@@ -72,8 +72,12 @@
 		.foodChoice {
 			color: white;
 			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
 		}
 		.foodChoiceActive {
+			padding-top: 0px;
+			padding-bottom: 10px;
 			text-align: center;
 			color: red;
     		text-shadow: 2px 2px 4px white;;

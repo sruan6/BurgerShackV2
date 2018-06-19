@@ -84,10 +84,10 @@ class Menu extends Component {
 									<h1 className="title">Menu</h1>
 								</div>
 								<div className="col-md-12 col-6">
-									<h6 id="firstOption" className={this.state.choice1} onClick={this.handleBurger}>BURGER & FRIES</h6>
+									<h6 id="firstOption" className={this.state.choice1} onClick={this.handleBurger}>BURGER & <br className="d-none d-block d-sm-block d-md-none"/>FRIES</h6>
 								</div>
 								<div className="col-md-12 col-6">
-									<h6 className={this.state.choice2} onClick={this.handleSandwiches}>SANWICHES & EXTRAS</h6>
+									<h6 className={this.state.choice2} onClick={this.handleSandwiches}>SANWICHES & <br className="d-none d-block d-sm-block d-md-none"/>EXTRAS</h6>
 								</div>
 								<div className="col-md-12 col-6">
 									<h6 className={this.state.choice3} onClick={this.handleBasket}>BASKETS</h6>
