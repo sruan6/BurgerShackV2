@@ -21,7 +21,7 @@ class Location extends Component {
 				<span id="Location"></span>
 
 				<section className="Location">
-					<h1 className="title">Location</h1>
+					<h1 className="title">Contact</h1>
 
 						<div className='row'>
 							<div className="col-12">
@@ -34,6 +34,8 @@ class Location extends Component {
 										CA, 94133
 													<br/><button className='btn btn-primary direction' onClick={this.mapsSelector}>DIRECTION</button>		
 									</p>
+								<h3>Phone Number</h3>
+									<p className='number'><a  className='telePhone' href='tel:+1-415-523-6818'>(415)523-6818</a></p>
 
 							</div>
 
@@ -58,12 +60,6 @@ class Location extends Component {
 
 						</div>
 
-						<Scroll type="class" element="Contact">
-							<div className="icon">
-									<i className="fas fa-chevron-down"></i>
-									<b className="icon-text">NEXt</b>
-							</div>
-						</Scroll>
 
 				</section>
 			</div>

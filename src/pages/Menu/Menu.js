@@ -61,7 +61,7 @@ class Menu extends Component {
   handleDrinks = () => {
   	this.setState({	burger : false,
   					sandwiches : false,
-  					baskest: false,
+  					baskets: false,
   					drinks : true,
   					choice1: "foodChoice",
     				choice2: "foodChoice",
@@ -77,14 +77,14 @@ class Menu extends Component {
 				<section className="Menu">
 					<div className="row">
 
-						<div className="col-12">
-							<h1 className="title">Menu</h1>
-						</div>
 
 						<div className="col-md-6 col-12">
 							<div className="row">
+								<div className="col-12">
+									<h1 className="title">Menu</h1>
+								</div>
 								<div className="col-md-12 col-6">
-									<h6 className={this.state.choice1} onClick={this.handleBurger}>BURGER & FRIES</h6>
+									<h6 id="firstOption" className={this.state.choice1} onClick={this.handleBurger}>BURGER & FRIES</h6>
 								</div>
 								<div className="col-md-12 col-6">
 									<h6 className={this.state.choice2} onClick={this.handleSandwiches}>SANWICHES & EXTRAS</h6>

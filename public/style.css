@@ -26,7 +26,13 @@ button {
 /*Header Page*/
 .Header {
   position: relative;
-  background: green;
+}
+.Header .headerImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .logo {
@@ -61,19 +67,24 @@ button {
 /*Menu Page*/
 .Menu {
   position: relative;
-  background: gray;
+  background: url("http://blogrope.com/wp-content/uploads/2013/06/006-wood-melamine-subttle-pattern-background-pat-640x340.jpg");
+}
+.Menu .title {
+  color: white;
 }
 .Menu .foodChoice {
+  color: white;
   text-align: center;
 }
 .Menu .foodChoiceActive {
   text-align: center;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  color: red;
+  text-shadow: 2px 2px 4px white;
 }
 .Menu .menuChoice {
   background: black;
   border: 5px dotted white;
+  border-radius: 20px;
   height: 100%;
   padding-bottom: 20px;
   font-family: "Cabin Sketch", cursive;
@@ -82,6 +93,7 @@ button {
   font-family: "Cabin Sketch", cursive;
   text-align: center;
   color: white;
+  padding: 20px;
 }
 .Menu .menuChoice h3 {
   margin-left: 4%;
@@ -161,8 +173,11 @@ button {
   }
 
   /*Header Page*/
-  .Header {
-    background: yellow;
+  .Header .headerImg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
   }
 
   .logo {
@@ -196,9 +211,18 @@ button {
 
   /*Menu Page*/
   .Menu {
-    background: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Menu h6 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .Menu #firstOption {
+    margin-top: 30px;
   }
   .Menu .menuChoice {
+    height: 800px;
     margin-right: 20px;
   }
 
