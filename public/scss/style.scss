@@ -21,7 +21,7 @@
   /*Header Page*/
   .Header {
     position: relative;
-  
+  	max-height: 100vh;
     	.image {
     		position: fixed;
     		top: 0px;
@@ -29,7 +29,7 @@
     		right: 0px;
     		bottom:0px;
     		width: 400px;
-			height: 100vh;
+			height: 1000px;
   		}
    
   }

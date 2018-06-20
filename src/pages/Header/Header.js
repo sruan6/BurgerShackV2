@@ -8,14 +8,9 @@ class Header extends Component {
 			<div>
 				<span id="Header"></span>
 
-				<section className="Header">
+				<section className="Header">	
+					<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 				<div className="row">
-					
-						<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
-			
-				
-
-			
 					<div className="col-lg-4 col-md-4 col-4">
 						<img src={logo} className="logo"/>
 					</div>
