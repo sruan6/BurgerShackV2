@@ -21,18 +21,13 @@
   /*Header Page*/
   .Header {
     position: relative;
-    .position {
-    	position: absolute;
-    	top: 0px;
-    	left: 0px;
-    	bottom: 0px;
-    	right: 0px;
+  
     	.image {
     		position: fixed;
    			height: 100%;
    			width: 100%;
   		}
-    }
+   
   }
   .logo {
     width: 100%;

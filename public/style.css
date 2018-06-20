@@ -27,14 +27,7 @@ button {
 .Header {
   position: relative;
 }
-.Header .position {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-}
-.Header .position .image {
+.Header .image {
   position: fixed;
   height: 100%;
   width: 100%;
