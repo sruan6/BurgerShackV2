@@ -23,23 +23,24 @@
     position: relative;
     .position {
     	position: absolute;
-    	top:0px;
-    	left:0px;
-    	bottom:0px;
-    	right:0px;
+    	top: 0px;
+    	left: 0px;
+    	bottom: 0px;
+    	right: 0px;
+    	width: 100vw;
+    	height: 100vh;
     	.image {
     		position: fixed;
-    		left:0;
-    		right: 0;
+    		left: 0px;
+    		right: 0px;
   	    	background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg");
 
     	
     		    /* Full height */
    			height: 100%;
-   			width:100%;
 
     		/* Create the parallax scrolling effect */
-    	
+    		background-position: center;
     		background-repeat: no-repeat;
     		background-size: cover;
   		}
