@@ -28,8 +28,8 @@
     		left: 0px;
     		right: 0px;
     		bottom:0px;
-    		width: 400px;
-			height: 1000px;
+    		width: 450px;
+			height: 100vh;
   		}
    
   }
@@ -299,7 +299,7 @@
 }
 
 .example-leave.example-leave-active {
-     animation: fadeOutLeft 1s linear;
+     animation: fadeOutLeft .5s linear;
 }
 
 .example-appear.example-appear-active {
