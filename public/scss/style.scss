@@ -46,7 +46,7 @@
     	text-align: center;
     	left: 0;
     	right:0;
-    	margin-left: 10px;
+    	margin-left: 20px;
    		bottom: 10px;
    		font-size: 20px;
    		font-family: 'Luckiest Guy', cursive;
@@ -64,6 +64,8 @@
   
   /*Menu Page*/
   .Menu {
+  	padding-top: 20px;
+  	padding-bottom: 20px;
     position: relative;
     background: url('http://blogrope.com/wp-content/uploads/2013/06/006-wood-melamine-subttle-pattern-background-pat-640x340.jpg');
     	.title {
@@ -74,29 +76,37 @@
 			text-align: center;
 			padding-top: 10px;
 			padding-bottom: 10px;
+			font-family: 'Slabo 27px', serif;
 		}
 		.foodChoiceActive {
 			padding-top: 0px;
 			padding-bottom: 10px;
 			text-align: center;
-			color: red;
-    		text-shadow: 2px 2px 4px white;;
+			color: yellow;
+    		text-shadow: 2px 2px 4px orange;
+    		font-family: 'Slabo 27px', serif;
+    		    animation-name: bounce;
+   				 animation-duration: 2s;
+    			animation-iteration-count: linear;
 		}
 	    .menuChoice {
 	    background: black;
 	    border: 5px dotted white;
 	    border-radius: 20px;
-	    height: 100%;
-	    padding-bottom: 20px;
+	    margin-top: 15px;
+	    margin-bottom: 15px;
 	    font-family: 'Cabin Sketch', cursive;
 	    
 		    h1 {
 		    	font-family: 'Cabin Sketch', cursive;
 		    	text-align: center;
 		    	color: white;
-		    	padding: 20px;
+		    	padding-top: 20px;
+		    	padding-bottom: 5px;
+		    	font-size:35px;
 		  	}
 		  	h3 {
+		  		font-size: 24px;
 		  		margin-left: 4%;
 		  		color: white;
 		  	}
@@ -110,8 +120,9 @@
 		  		color: white;
 		  		text-align: center;
 		  	}
-		  	.first {
-		  		margin-left: 9%;
+
+		  	.middle {
+		  		padding: 20px;
 		  	}
 		  	p {
 		  		padding: 0px 10px 2px 10px;
@@ -120,8 +131,11 @@
 		  	.foodDescription {
 		  		margin-left: 1%;
 		  	}
+		  	.extra {
+		  		text-align: center;
+		  	}
 		  	.extraDescription {
-		  		margin-left: 4%;
+		  		text-align: center;
 		  	}
 		  	.extraAmount {
 		  		text-align: center;
@@ -135,9 +149,13 @@
   // Loction Page
   .Location {
     position: relative;
-    background: blue;
+    background: gray;
+    	h1 {
+    		color: white;
+    	}
     	.front {
     		width:100vw;
+    		height: auto;
     	}
     	h3 {
     		font-family: 'Patua One', cursive;
@@ -156,19 +174,17 @@
   			padding-bottom: 20px;
   		}
   }
-  // Contact Page
-  .Contact {
-  	text-align: center;
-
-  }
-
 
 @media (min-width: 576px) {
   
 }
 
 @media (min-width: 768px) {
-
+	.Menu {
+		.menuChoice {
+			height: 762px;
+		}
+	}
 }
 
 @media (min-width: 992px) {
@@ -230,8 +246,8 @@
   }
   /*Menu Page*/
   .Menu {
-	padding-top: 20px;
-   	padding-bottom: 20px;
+  	padding-top: 0px;
+  	padding-bottom: 0px;
    	h6 {
    		font-size: 20px;
    		padding: 10px;
@@ -242,6 +258,19 @@
    	.menuChoice {
    		height: 800px;
    		margin-right: 20px;
+   			.foodDescription {
+		  		margin-left: 2%;
+		  	}
+		  	.first {
+		  		margin-left: 9%;
+		  	}
+   			.left {
+		  		text-align: left;
+		  	}
+		  	.extraDescription {
+		  		text-align: left;
+		  		margin-left: 4%;
+		  	}
    	}
   }
 
@@ -252,6 +281,21 @@
   	}
   }
 }
+
+
+.example-enter.example-enter-active {
+    animation: fadeInRight 2s linear;
+}
+
+.example-leave.example-leave-active {
+     animation: fadeOutLeft 1s linear;
+}
+
+.example-appear.example-appear-active {
+     animation: fadeInRight 1s linear;
+}
+
+
 
 
 @keyframes bounce {
@@ -284,5 +328,44 @@
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0);
+  }
+}
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
   }
 }

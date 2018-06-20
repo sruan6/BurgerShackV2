@@ -12,34 +12,34 @@ class Basket extends Component {
 
 					<div className="col-12">
 						<div className="row">
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>Fish & Chips</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>8.75</h3>
 							</div>
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>Chicken Strips</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>8.00</h3>
 							</div>
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>6 pc Chicken Nuggets</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>5.75</h3>
 							</div>
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>9 pc Chicken Nuggets</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>7.00</h3>
 							</div>
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>20 pc Chicken Nuggets</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>11.50</h3>
 							</div>
 						</div>

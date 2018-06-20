@@ -51,7 +51,7 @@ button {
   text-align: center;
   left: 0;
   right: 0;
-  margin-left: 10px;
+  margin-left: 20px;
   bottom: 10px;
   font-size: 20px;
   font-family: "Luckiest Guy", cursive;
@@ -66,6 +66,8 @@ button {
 
 /*Menu Page*/
 .Menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: relative;
   background: url("http://blogrope.com/wp-content/uploads/2013/06/006-wood-melamine-subttle-pattern-background-pat-640x340.jpg");
 }
@@ -77,29 +79,37 @@ button {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: "Slabo 27px", serif;
 }
 .Menu .foodChoiceActive {
   padding-top: 0px;
   padding-bottom: 10px;
   text-align: center;
-  color: red;
-  text-shadow: 2px 2px 4px white;
+  color: yellow;
+  text-shadow: 2px 2px 4px orange;
+  font-family: "Slabo 27px", serif;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: linear;
 }
 .Menu .menuChoice {
   background: black;
   border: 5px dotted white;
   border-radius: 20px;
-  height: 100%;
-  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-family: "Cabin Sketch", cursive;
 }
 .Menu .menuChoice h1 {
   font-family: "Cabin Sketch", cursive;
   text-align: center;
   color: white;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 35px;
 }
 .Menu .menuChoice h3 {
+  font-size: 24px;
   margin-left: 4%;
   color: white;
 }
@@ -113,8 +123,8 @@ button {
   color: white;
   text-align: center;
 }
-.Menu .menuChoice .first {
-  margin-left: 9%;
+.Menu .menuChoice .middle {
+  padding: 20px;
 }
 .Menu .menuChoice p {
   padding: 0px 10px 2px 10px;
@@ -123,8 +133,11 @@ button {
 .Menu .menuChoice .foodDescription {
   margin-left: 1%;
 }
+.Menu .menuChoice .extra {
+  text-align: center;
+}
 .Menu .menuChoice .extraDescription {
-  margin-left: 4%;
+  text-align: center;
 }
 .Menu .menuChoice .extraAmount {
   text-align: center;
@@ -135,10 +148,14 @@ button {
 
 .Location {
   position: relative;
-  background: blue;
+  background: gray;
+}
+.Location h1 {
+  color: white;
 }
 .Location .front {
   width: 100vw;
+  height: auto;
 }
 .Location h3 {
   font-family: "Patua One", cursive;
@@ -157,10 +174,11 @@ button {
   padding-bottom: 20px;
 }
 
-.Contact {
-  text-align: center;
+@media (min-width: 768px) {
+  .Menu .menuChoice {
+    height: 762px;
+  }
 }
-
 @media (min-width: 1200px) {
   body {
     min-height: 100%;
@@ -215,8 +233,8 @@ button {
 
   /*Menu Page*/
   .Menu {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .Menu h6 {
     font-size: 20px;
@@ -229,12 +247,37 @@ button {
     height: 800px;
     margin-right: 20px;
   }
+  .Menu .menuChoice .foodDescription {
+    margin-left: 2%;
+  }
+  .Menu .menuChoice .first {
+    margin-left: 9%;
+  }
+  .Menu .menuChoice .left {
+    text-align: left;
+  }
+  .Menu .menuChoice .extraDescription {
+    text-align: left;
+    margin-left: 4%;
+  }
 
   .Location .front {
     margin-left: 25%;
     width: 50vw;
   }
 }
+.example-enter.example-enter-active {
+  animation: fadeInRight 2s linear;
+}
+
+.example-leave.example-leave-active {
+  animation: fadeOutLeft 1s linear;
+}
+
+.example-appear.example-appear-active {
+  animation: fadeInRight 1s linear;
+}
+
 @keyframes bounce {
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -257,6 +300,40 @@ button {
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0);
+  }
+}
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
   }
 }
 

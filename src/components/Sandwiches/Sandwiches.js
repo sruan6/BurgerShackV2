@@ -11,19 +11,19 @@ class Sandwiches extends Component {
 
 					<div className="col-12">
 						<div className="row">
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>Fried Chicken Sandwich</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>7.75</h3>
 							</div>
 							<div className='col-md-12 col-12'>
 								<p className='foodDescription'>All natural chicken breast with lettuce, tomato and mayo</p>
 							</div>
-							<div className='col-md-8 col-9'>
+							<div className='col-lg-10 col-md-10 col-9'>
 								<h3 className='foodName'>Fish Sandwich</h3>
 							</div>
-							<div className='col-md-4 col-3'>
+							<div className='col-lg-2 col-md-2 col-3'>
 								<h3 className='foodPrice'>7.75</h3>
 							</div>
 							<div className='col-md-12 col-12'>
@@ -34,10 +34,10 @@ class Sandwiches extends Component {
 					<div className="col-12">
 						<h1>-EXTRAS-</h1>
 					</div>
-					<div className="col-4">
+					<div className="col-md-4 col-12">
 						<div className="row">
 							<div className="col-12">
-								<h4 className="extra first">Jalapeno Poppers</h4>
+								<h4 className="extra first left">Jalapeno Poppers</h4>
 							</div>
 							<div className="col-12">
 								<p className="extraDescription first">Stuffed with cream cheese</p>
@@ -62,16 +62,16 @@ class Sandwiches extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-4">
+					<div className="col-md-4 col-12">
 						<div className="row">
 							<div className="col-12">
-							<br/>
-							<br/>
-								<h4 className="extra">Corn Dog&nbsp;&nbsp;&nbsp;&nbsp;3.00</h4>
+							<br className="d-none d-md-block d-lg-block"/>
+							<br className="d-none d-md-block d-lg-block"/>
+								<h4 className="extra middle">Corn Dog&nbsp;&nbsp;&nbsp;&nbsp;3.00</h4>
 							</div>
 						</div>
 					</div>
-					<div className="col-4">
+					<div className="col-md-4 col-12">
 						<div className="row">
 							<div className="col-12">
 								<h4 className="extra">Mini Corn Dogs</h4>
