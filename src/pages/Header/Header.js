@@ -9,11 +9,13 @@ class Header extends Component {
 				<span id="Header"></span>
 
 				<section className="Header">
-				<div className="position">
-				<div className="image">
-				</div>
-				</div>
 				<div className="row">
+					<div className='col-12'>
+					<div className="position">
+						<div className="image"></div>
+					</div>
+					</div>
+
 			
 					<div className="col-lg-4 col-md-4 col-4">
 						<img src={logo} className="logo"/>
