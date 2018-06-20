@@ -21,13 +21,26 @@
   /*Header Page*/
   .Header {
     position: relative;
-    .headerImg {
-  		position: absolute;
-  		top:0;
-  		bottom:0;
-  		width:100%;
-  		height:100%;
-  	}
+    .position {
+    	position: absolute;
+    	top:0px;
+    	left:0px;
+    	bottom:0px;
+    	right:0px;
+    	.image{
+  	    	background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg");
+
+    		/* Set a specific height */
+    		min-height: 100%; 
+
+    		/* Create the parallax scrolling effect */
+    		background-attachment: fixed;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+  		}
+    }
+
   }
   .logo {
     width: 100%;
