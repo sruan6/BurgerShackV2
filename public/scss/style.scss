@@ -24,12 +24,9 @@
   	max-height: 100vh;
     	.image {
     		position: fixed;
-    		top: 0px;
-    		left: 0px;
-    		right: 0px;
-    		bottom:0px;
     		width: 450px;
-			height: 100vh;
+			height: 99%;
+			z-index: -1;
   		}
    
   }
