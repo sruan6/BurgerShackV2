@@ -25,7 +25,7 @@
     	.image {
     		position: fixed;
     		width: 450px;
-			height: 99%;
+			min-height: 100vh;
 			z-index: -1;
   		}
    
