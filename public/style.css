@@ -126,6 +126,13 @@ button {
 .Menu .menuChoice .middle {
   padding: 20px;
 }
+.Menu .menuChoice .noMargin {
+  margin: 0px;
+  padding-bottom: 0px;
+}
+.Menu .menuChoice .paddingBottom {
+  padding-bottom: 10px;
+}
 .Menu .menuChoice p {
   padding: 0px 10px 2px 10px;
   color: white;

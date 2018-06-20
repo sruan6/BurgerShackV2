@@ -6,8 +6,8 @@ class Basket extends Component {
 			<div>
 				<div className="row">
 					<div className="col-12">
-						<h1>-BASKET-</h1>
-						<h6>all baskets come with french fries</h6>
+						<h1 className="noMargin">-BASKET-</h1>
+						<h6 className="paddingBottom">All baskets come with french fries</h6>
 					</div>
 
 					<div className="col-12">
