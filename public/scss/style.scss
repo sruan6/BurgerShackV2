@@ -30,8 +30,9 @@
     	.image{
   	    	background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg");
 
-    		/* Set a specific height */
-    		min-height: 1000px; 
+    	
+    		    /* Full height */
+   			height: 100%; 
 
     		/* Create the parallax scrolling effect */
     		background-attachment: fixed;
