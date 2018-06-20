@@ -12,7 +12,7 @@ class Header extends Component {
 				<div className="row">
 					<div className='col-12'>
 					<div className="position">
-						<div className="image"></div>
+						<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 					</div>
 					</div>
 

@@ -27,17 +27,15 @@
     	left: 0px;
     	bottom: 0px;
     	right: 0px;
-    	width: 100vw;
-    	height: 100vh;
     	.image {
     		position: fixed;
     		left: 0px;
     		right: 0px;
-  	    	background-image: url("https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg");
 
     	
     		    /* Full height */
    			height: 100%;
+   			width: 100%;
 
     		/* Create the parallax scrolling effect */
     		background-position: center;
@@ -48,7 +46,6 @@
   }
   .logo {
     width: 100%;
-    z-index: 2;
   }
   .icon {
   	i {
@@ -57,7 +54,6 @@
     	left: 50%;
    		font-size: 20px;
    		color:#fff;
-   		z-index: 2;
   	}
 
   	b {
@@ -83,7 +79,6 @@
   
   /*Menu Page*/
   .Menu {
-  	z-index: 2;
   	padding-top: 20px;
   	padding-bottom: 20px;
     position: relative;
