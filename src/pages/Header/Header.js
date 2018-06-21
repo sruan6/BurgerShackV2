@@ -33,8 +33,8 @@ class Header extends Component {
 
 						<Scroll type="class" element="Menu">
 							<div className="icon">
-									<i className="fas fa-chevron-down"></i>
-									<b className="icon-text">NEXT</b>
+									<i className="fas fa-chevron-down specialI"></i>
+									<b className="icon-text specialB">SCROLL DOWN</b>
 							</div>
 						</Scroll>
 
