@@ -113,19 +113,19 @@ class Menu extends Component {
 						      transitionLeave={true}>
 						      {this.state.sandwiches ? <div className="menuChoice"><Sandwiches/></div> : null}
 						   	</ReactCSSTransitionGroup>
-						   	<ReactCSSTransitionGroup
-						      transitionName="example"
-						      transitionEnter={true}
-						      transitionLeave={true}>
-						      {this.state.baskets ? <div className="menuChoice"><Basket/></div> : null}
-						   	</ReactCSSTransitionGroup>
 						    <ReactCSSTransitionGroup
 						      transitionName="example"
 						      transitionEnter={true}
 						      transitionLeave={true}>
 						      {this.state.drinks ? <div className="menuChoice"><Drinks/></div> : null}
 						   	</ReactCSSTransitionGroup>
-						   	
+						   	<ReactCSSTransitionGroup
+						      transitionName="example"
+						      transitionEnter={true}
+						      transitionLeave={true}>
+						      {this.state.baskets ? <div className="menuChoice"><Basket/></div> : null}
+						   	</ReactCSSTransitionGroup>
+	   	
 						</div>
 
 						<Scroll type="class" element="Location">

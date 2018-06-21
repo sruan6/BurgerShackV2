@@ -42,7 +42,7 @@
   .icon {
   	i {
     	position: absolute;
-    	bottom: 20vh;
+    	bottom: 10vh;
     	left: 50%;
    		font-size: 20px;
    		color:#fff;
@@ -54,7 +54,7 @@
     	left: 0;
     	right:0;
     	margin-left: 20px;
-   		bottom: 20vh;
+   		bottom: 10vh;
    		font-size: 20px;
    		font-family: 'Luckiest Guy', cursive;
     	display: none;
@@ -187,6 +187,13 @@
   		.hours {
   			padding-bottom: 20px;
   		}
+  		.white {
+    		position: fixed;
+    		background: white;
+    		width: 100%;
+			height: 100vh;
+			z-index: -1;
+  		}
   }
 
 @media (min-width: 576px) {
@@ -202,7 +209,12 @@
 }
 
 @media (min-width: 992px) {
-
+	.Menu {
+		.menuChoice {
+			height: 900px;
+			margin-right: 10px;
+		}
+	}
 }
 
 @media (min-width: 1200px) {
@@ -224,6 +236,11 @@
   			justify-content: center;
   			text-align: center;
   			margin-top: 20%;
+  			.display-4 {
+  				font-size: 100px;
+  				font-family: 'Merriweather', serif;
+
+  			}
   		}
   	   .image {
     		position: fixed;
@@ -308,7 +325,7 @@
 }
 
 .example-leave.example-leave-active {
-     animation: fadeOutLeft .5s linear;
+     animation: fadeOutLeft .4s linear;
 }
 
 .example-appear.example-appear-active {

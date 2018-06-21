@@ -26,7 +26,7 @@ class Header extends Component {
 
 						<div className="col-12">
 							<div class="jumbo">
-	  							<h1 class="display-4">Burger Shack</h1>
+	  							<h1 class="display-4">BURGER SHACK</h1>
 	  								<p class="lead">Classic Burgers near Pier 39</p>
 	  						</div>
 						</div>

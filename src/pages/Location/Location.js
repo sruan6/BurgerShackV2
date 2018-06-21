@@ -22,7 +22,8 @@ class Location extends Component {
 
 				<section className="Location">
 					<h1 className="title">Contact</h1>
-
+						<div className="white"> 
+						</div>
 						<div className='row'>
 							<div className="col-12">
 								<img className="front" src={Front}/>
