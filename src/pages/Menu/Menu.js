@@ -5,6 +5,8 @@ import Burger from './../../components/Burger';
 import Sandwiches from './../../components/Sandwiches';
 import Basket from './../../components/Basket';
 import Drinks from './../../components/Drinks';
+import Ketchup from './ketchup.png';
+import Mustard from './mustard.png';
 
 class Menu extends Component {
 
@@ -81,7 +83,7 @@ class Menu extends Component {
 						<div className="col-lg-6 col-md-12 col-12">
 							<div className="row">
 								<div className="col-12">
-									<h1 className="title"><i class="fas fa-utensils"></i> Menu <i class="fas fa-utensils"></i></h1>
+									<h1 className="title"><img  className="food" src={Ketchup} />&nbsp;&nbsp; Menu &nbsp;&nbsp;<img className="food" src={Mustard} /></h1>
 								</div>
 								<div className="col-lg-12 col-md-6 col-6">
 									<h6 id="firstOption" className={this.state.choice1} onClick={this.handleBurger}>BURGER & <br className="d-none d-block d-sm-block d-md-none"/>FRIES</h6>

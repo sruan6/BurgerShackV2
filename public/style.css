@@ -106,6 +106,9 @@ button {
 .Menu .title {
   color: white;
 }
+.Menu .food {
+  height: 100px;
+}
 .Menu .foodChoice {
   color: white;
   text-align: center;
@@ -291,6 +294,27 @@ button {
     left: 0;
     right: 0;
     bottom: 10px;
+    display: none;
+  }
+  .icon .specialI {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    font-size: 60px;
+    color: #fff;
+  }
+  .icon .specialB {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    bottom: 10px;
+    font-size: 60px;
+    font-family: "Luckiest Guy", cursive;
     display: none;
   }
   .icon:hover b {
