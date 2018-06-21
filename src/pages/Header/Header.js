@@ -8,18 +8,29 @@ class Header extends Component {
 			<div>
 				<span id="Header"></span>
 
-				<section className="Header">	
-					<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
-				<div className="row">
-					<div className="col-lg-4 col-md-4 col-4">
-						<img src={logo} className="logo"/>
-					</div>
-					<div className="col-12">
-						<div class="jumbo">
-  							<h1 class="display-4">Burger Shack</h1>
-  								<p class="lead">Classic Burgers near Pier 39</p>
-  						</div>
-					</div>
+				<section className="Header">
+					<div className="row">
+						<div className="col-lg-4 col-12">
+							<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
+						</div>
+						<div className="col-lg-4 col-12">
+							<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
+						</div>
+						<div className="col-lg-4 col-12">
+							<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
+						</div>
+
+						<div className="col-lg-4 col-md-4 col-4">
+							<img src={logo} className="logo"/>
+						</div>
+
+						<div className="col-12">
+							<div class="jumbo">
+	  							<h1 class="display-4">Burger Shack</h1>
+	  								<p class="lead">Classic Burgers near Pier 39</p>
+	  						</div>
+						</div>
+
 						<Scroll type="class" element="Menu">
 							<div className="icon">
 									<i className="fas fa-chevron-down"></i>
