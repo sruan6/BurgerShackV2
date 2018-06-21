@@ -14,7 +14,12 @@ class Header extends Component {
 					<div className="col-lg-4 col-md-4 col-4">
 						<img src={logo} className="logo"/>
 					</div>
-					
+					<div className="col-12">
+						<div class="jumbo">
+  							<h1 class="display-4">Burger Shack</h1>
+  								<p class="lead">Classic Burgers near Pier 39</p>
+  						</div>
+					</div>
 						<Scroll type="class" element="Menu">
 							<div className="icon">
 									<i className="fas fa-chevron-down"></i>

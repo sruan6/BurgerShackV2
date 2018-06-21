@@ -28,6 +28,12 @@ button {
   position: relative;
   max-height: 100vh;
 }
+.Header .jumbo {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50%;
+}
 .Header .image {
   position: fixed;
   width: 450px;
@@ -41,7 +47,7 @@ button {
 
 .icon i {
   position: absolute;
-  bottom: 50px;
+  bottom: 20vh;
   left: 50%;
   font-size: 20px;
   color: #fff;
@@ -52,7 +58,7 @@ button {
   left: 0;
   right: 0;
   margin-left: 20px;
-  bottom: 50px;
+  bottom: 20vh;
   font-size: 20px;
   font-family: "Luckiest Guy", cursive;
   display: none;
