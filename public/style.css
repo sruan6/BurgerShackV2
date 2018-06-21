@@ -208,6 +208,12 @@ button {
   }
 
   /*Header Page*/
+  .Header .jumbo {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+  }
   .Header .image {
     position: fixed;
     width: 40%;
