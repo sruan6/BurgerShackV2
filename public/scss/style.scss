@@ -33,11 +33,14 @@
 
   			}
   		}
-    	.image {
-    		position: fixed;
-    		width: 100%;
-			height: 100vh;
-			z-index: -1;
+  		.absol {
+  			position: relative;
+    		.image {
+    			position: fixed;
+    			width: 100%;
+				height: 100vh;
+				z-index: -1;
+  			}
   		}
    
   }
@@ -52,14 +55,13 @@
    		font-size: 20px;
    		color:#fff;
   	}
-
   	b {
     	position: absolute;
     	text-align: center;
     	left: 0;
     	right:0;
     	margin-left: 20px;
-   		bottom: 10px;
+   		bottom: 5px;
    		font-size: 20px;
    		font-family: 'Luckiest Guy', cursive;
    		color: white;
@@ -193,7 +195,7 @@
   // Loction Page
   .Location {
     position: relative;
-    background: gray;
+    background: #F3E5AB;
     	h1 {
     		color: white;
     	}
@@ -211,23 +213,17 @@
    			color: white;
   		}
   		.direction {
-  			margin-left: 0px;
+  			margin: 5px;
   		}
   		.hours {
   			padding-bottom: 20px;
   		}
-  		.white {
-    		position: absolute;
-    		top: 0px;
-    		left: 0px;
-    		right: 0px;
-    		bottom: 0px;
-    		background: white;
-    		width: 100%;
-			height: 100%;
-			z-index: -1;
+  		.number {
+  			color: white;
   		}
-  	
+  		.telePhone {
+  			color: white;
+  		}
   }
 
 @media (min-width: 576px) {
@@ -280,11 +276,14 @@
   				font-size: 100px;
   			}
   		}
-  	   .image {
-    		position: fixed;
-    		width: 40%;
-			height: 100vh;
-			z-index: -1;
+  		.absol {
+  			position: relative;
+  	   		.image {
+    			position: fixed;
+    			width: 40%;
+				height: 100vh;
+				z-index: -1;
+  			}
   		}
   }
   .logo {
@@ -325,7 +324,7 @@
     	text-align: center;
     	left: 0;
     	right:0;
-    	margin-left: 20px;
+    	margin-left: 10px;
    		bottom: 10px;
    		font-size: 60px;
    		font-family: 'Luckiest Guy', cursive;

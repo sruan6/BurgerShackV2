@@ -10,6 +10,9 @@ class Header extends Component {
 
 				<section className="Header">
 					<div className="row">
+						<div className="col-12">
+						<div className="absol">
+						<div className="row">
 						<div className="col-lg-4 col-12">
 							<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 						</div>
@@ -19,7 +22,9 @@ class Header extends Component {
 						<div className="col-lg-4 col-12">
 							<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 						</div>
-
+						</div>
+						</div>
+						</div>
 						<div className="col-lg-4 col-md-4 col-4">
 							<img src={logo} className="logo"/>
 						</div>

@@ -22,7 +22,6 @@ class Location extends Component {
 
 				<section className="Location">
 					<h1 className="title">Contact</h1>
-						<div className="white"></div>
 						<div className='row'>
 
 							<div className='col-lg-6 col-md-12 col-12'>
@@ -34,10 +33,11 @@ class Location extends Component {
 									<p className='address'>2237 Powell Street, San Francisco, 
 										<br/>
 										CA, 94133
-													<br/><button className='btn btn-primary direction' onClick={this.mapsSelector}>DIRECTION</button>		
+										<br/>
+										<button className='btn btn-primary direction' onClick={this.mapsSelector}>DIRECTION</button>		
 									</p>
 								<h3>Phone Number</h3>
-									<p className='number'><a  className='telePhone' href='tel:+1-415-523-6818'>(415)523-6818</a></p>
+									<p className='number'><a  className='telePhone' href='tel:+1-415-523-6818'> (415)523-6818 <i class="fas fa-phone"></i></a></p>
 
 								<h3 className='subTitle'>BUSINESS HOURS</h3>
 								<p className='hours'>
