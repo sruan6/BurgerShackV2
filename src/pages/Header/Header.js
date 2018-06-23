@@ -16,10 +16,10 @@ class Header extends Component {
 									<div className="col-lg-4 col-12">
 										<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 									</div>
-									<div className="col-lg-4 d-none d-lg-block">
+									<div className="col-lg-4 col-12">
 										<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 									</div>
-									<div className="col-lg-4 d-none d-lg-block">
+									<div className="col-lg-4 col-12">
 										<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 									</div>
 								</div>

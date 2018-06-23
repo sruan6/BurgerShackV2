@@ -21,6 +21,9 @@ class Location extends Component {
 				<span id="Location"></span>
 
 				<section className="Location">
+					<div className="relative">
+						<div className="color"></div>
+					</div>
 					<h1 className="title">Contact</h1>
 						<div className='row'>
 
