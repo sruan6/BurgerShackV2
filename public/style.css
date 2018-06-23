@@ -12,6 +12,15 @@ section {
   min-height: 100vh;
 }
 
+.white {
+  position: absolute;
+  bottom: 20vh;
+  left: 0px;
+  right: 0px;
+  background: white;
+  z-index: -1;
+}
+
 .title {
   text-align: center;
   font-family: "Paytone One", sans-serif;
@@ -39,12 +48,7 @@ button {
   font-family: "Merriweather", serif;
 }
 .Header .absol {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 100%;
+  position: relative;
 }
 .Header .absol .image {
   position: fixed;
@@ -229,18 +233,6 @@ button {
 }
 .Location .telePhone {
   color: white;
-}
-.Location .relative {
-  position: relative;
-}
-.Location .relative .color {
-  position: fixed;
-  bottom: -30px;
-  left: 0px;
-  right: 0px;
-  background: white;
-  height: 30px;
-  z-index: -1;
 }
 
 @media (min-width: 576px) {

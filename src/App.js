@@ -11,6 +11,7 @@ class App extends Component {
         <Header/>
         <Menu/>
         <Location/>
+        <div className="white"></div>
       </div>
     );
   }
