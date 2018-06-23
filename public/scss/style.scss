@@ -43,8 +43,9 @@
   			height: 100%;
     		.image {
     			position: fixed;
-    			bottom: 10px;
-    			width: 105vw;
+    			left: 0px;
+    			right: 0px;
+    			width: 100%;
 				height: 100%;
 				z-index: -1;
   			}
@@ -245,10 +246,19 @@
   }
 
 @media (min-width: 576px) {
-  
+	.Header {
+		.jumbo {
+			margin-top: 5%;
+		}
+	}
 }
 
 @media (min-width: 768px) {
+	.Header {
+		.jumbo {
+			margin-top: 10%;
+		}
+	}
 	.Menu {
 		.menuChoice {
 			height: 762px;
@@ -301,6 +311,8 @@
   			height: 100vh;
   	   		.image {
     			position: fixed;
+    			left: initial;
+    			right: auto;
     			width: 40%;
 				height: 100%;
 				z-index: -1;
