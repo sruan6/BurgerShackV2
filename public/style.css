@@ -32,7 +32,7 @@ button {
   color: white;
   justify-content: center;
   text-align: center;
-  margin-top: 40%;
+  margin-top: 35%;
 }
 .Header .jumbo .display-4 {
   font-size: 40px;
@@ -235,11 +235,11 @@ button {
 }
 .Location .relative .color {
   position: fixed;
-  top: 0px;
-  bottom: 0px;
+  bottom: -30px;
   left: 0px;
   right: 0px;
-  color: white;
+  background: white;
+  height: 30px;
   z-index: -1;
 }
 
