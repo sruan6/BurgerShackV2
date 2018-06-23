@@ -1,6 +1,6 @@
   body {
     min-height: 100vh;
-    min-width: 100vw; 
+    max-width: 100vw; 
   }
   .App {
     overflow-x: hidden;
@@ -8,6 +8,7 @@
   }
   section {
     min-height: 100vh;
+
   }
   .title {
     text-align: center;
@@ -35,14 +36,16 @@
   		}
   		.absol {
   			position: absolute;
+  			top:0px;
   			left: 0px;
   			right: 0px;
-  			height: 100vh;
+  			bottom: 0px;
+  			height: 100%;
     		.image {
     			position: fixed;
-    			bottom: 10vh;
-    			width: 100%;
-				height: 100vh;
+    			bottom: 10px;
+    			width: 105vw;
+				height: 100%;
 				z-index: -1;
   			}
   		}
@@ -299,7 +302,7 @@
   	   		.image {
     			position: fixed;
     			width: 40%;
-				height: 100vh;
+				height: 100%;
 				z-index: -1;
   			}
   		}
