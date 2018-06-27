@@ -13,13 +13,13 @@ class Header extends Component {
 						<div className="col-12">
 							<div className="absol">
 								<div className="row">
-									<div className="col-lg-4 col-12">
+									<div className="col-xl-4 col-lg-6 col-md-6 col-12">
 										<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 									</div>
-									<div className="col-lg-4 col-12">
+									<div className="col-xl-4 col-lg-6 col-md-6 d-none d-md-block">
 										<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 									</div>
-									<div className="col-lg-4 col-12">
+									<div className="col-xl-4 col-lg-6 d-none d-lg-block">
 										<img className="image" src="https://s3-media2.fl.yelpcdn.com/bphoto/9pDQeS-UXFejnuavuIHeMg/o.jpg"/>
 									</div>
 								</div>

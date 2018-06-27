@@ -39,17 +39,20 @@
   			.display-4 {
   				font-size: 40px;
   				font-family: 'Merriweather', serif;
-
   			}
   		}
   		.absol {
   			position: relative;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
     		  .image {
     		  	position: fixed;
-    		    left: 0px;
-    		  	right: 0px;
-    		  	width: 100%;
-				    height: 100%;
+            left:0px;
+            right:0px;
+            height:100vh;
+            width:100%;
 				    z-index: -2;
   			}
   		}
@@ -246,6 +249,32 @@
 }
 
 @media (min-width: 768px) {
+      .Header {
+        .jumbo {
+        color: white;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20%;
+        .display-4 {
+          font-size: 100px;
+        }
+      }
+      .absol {
+        position: relative;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+          .image {
+          position: fixed;
+          left:initial;
+          right:auto;
+          width: 52%;
+          height: 100%;
+          z-index: -2;
+        }
+      }
+  }
 	.Header {
 		.jumbo {
 			margin-top: 10%;
@@ -259,6 +288,32 @@
 }
 
 @media (min-width: 992px) {
+    .Header {
+        .jumbo {
+        color: white;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20%;
+        .display-4 {
+          font-size: 100px;
+        }
+      }
+      .absol {
+        position: relative;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+          .image {
+          position: fixed;
+          left:initial;
+          right:auto;
+          width: 52%;
+          height: 100%;
+          z-index: -2;
+        }
+      }
+  }
 	.Menu {
 		.menuChoice {
 			height: 900px;
@@ -297,14 +352,15 @@
   			}
   		}
   		.absol {
-  			position: absolute;
-  			left: 0px;
-  			right: 0px;
-  			height: 100vh;
+        position: relative;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
   	   		.image {
     			position: fixed;
-    			left: initial;
-    			right: auto;
+          left:initial;
+          right:auto;
     			width: 40%;
 				  height: 100%;
 				  z-index: -2;

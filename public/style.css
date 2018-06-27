@@ -49,13 +49,17 @@ button {
 }
 .Header .absol {
   position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 .Header .absol .image {
   position: fixed;
   left: 0px;
   right: 0px;
+  height: 100vh;
   width: 100%;
-  height: 100%;
   z-index: -2;
 }
 
@@ -242,6 +246,31 @@ button {
 }
 @media (min-width: 768px) {
   .Header .jumbo {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+  }
+  .Header .jumbo .display-4 {
+    font-size: 100px;
+  }
+  .Header .absol {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .Header .absol .image {
+    position: fixed;
+    left: initial;
+    right: auto;
+    width: 52%;
+    height: 100%;
+    z-index: -2;
+  }
+
+  .Header .jumbo {
     margin-top: 10%;
   }
 
@@ -250,6 +279,31 @@ button {
   }
 }
 @media (min-width: 992px) {
+  .Header .jumbo {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+  }
+  .Header .jumbo .display-4 {
+    font-size: 100px;
+  }
+  .Header .absol {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .Header .absol .image {
+    position: fixed;
+    left: initial;
+    right: auto;
+    width: 52%;
+    height: 100%;
+    z-index: -2;
+  }
+
   .Menu .menuChoice {
     height: 900px;
     margin-right: 10px;
@@ -286,10 +340,11 @@ button {
     font-size: 100px;
   }
   .Header .absol {
-    position: absolute;
+    position: relative;
+    top: 0px;
     left: 0px;
     right: 0px;
-    height: 100vh;
+    bottom: 0px;
   }
   .Header .absol .image {
     position: fixed;
@@ -456,4 +511,4 @@ button {
   }
 }
 
-/*# sourceMappingURL=../style.css.map */
+/*# sourceMappingURL=style.css.map */
